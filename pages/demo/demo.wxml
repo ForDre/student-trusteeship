@@ -1,0 +1,8 @@
+<!--pages/demo/demo.wxml-->
+
+<text>1</text>
+<text>2</text>
+<text>{{message}}</text>
+<view>{{num}}</view>
+<view>{{23+num}}</view>
+<view><checkbox checked="true"></checkbox></view>

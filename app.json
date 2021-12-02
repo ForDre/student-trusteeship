@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/statistics/statistics",
+    "pages/demo/demo"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#f0f0f0",
+    "navigationBarTitleText": "托管管理",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#ffff00"
+
+  },
+  "tabBar": {
+    "color": "#0000F0",
+    "selectedColor": "#FF0000",
+    "position": "bottom",
+    "borderStyle": "white",
+    "backgroundColor": "F0F0F0",
+    "list": [
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "demo",
+        "iconPath":"images/register.png",
+        "selectedIconPath":"images/_register.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "登记",
+        "iconPath": "images/register.png",
+        "selectedIconPath": "images/register.png"
+      },
+      {
+        "pagePath": "pages/statistics/statistics",
+        "text": "统计",
+        "iconPath": "images/statistics.png",
+        "selectedIconPath": "images/statistics.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
